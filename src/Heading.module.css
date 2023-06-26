@@ -1,0 +1,13 @@
+.btn {
+    font-size: 1rem;
+    font-family: monospace;
+    background-color: none;
+    color: black;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin-left: 25px;
+    padding: 2px 5px;
+    cursor: pointer;
+
+}
+
