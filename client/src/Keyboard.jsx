@@ -25,7 +25,7 @@ export default function Keyboard(props) {
                             
                         }
                         onClick={(event) => props.determineLetter(event)}
-                        key={letter}
+                        key={index}
                         name={letter}
                     >
 
