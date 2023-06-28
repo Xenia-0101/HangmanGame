@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React from 'react'
 import styles from "./Keyboard.module.css"
 
 export default function Keyboard(props) {
@@ -25,8 +25,9 @@ export default function Keyboard(props) {
                             
                         }
                         onClick={(event) => props.determineLetter(event)}
-                        key={index}
+                        
                         name={letter}
+                        key={index}
                     >
 
                         {letter}

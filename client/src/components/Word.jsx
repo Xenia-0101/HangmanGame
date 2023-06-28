@@ -1,7 +1,7 @@
 import React from 'react'
 
 export default function Word(props) {
-    const { word: wordLetters, guessedLetters, hasAttempts } = props
+    const { word: wordLetters, hasAttempts } = props
 
     return (
         <div style={{ display: "flex", gap: "1rem", textTransform: "uppercase", fontFamily: "monospace", fontSize: "4.5rem" }}>

@@ -1,5 +1,4 @@
 import React from 'react'
-import styles from "./Heading.module.css"
 import { IoIosRefresh } from "react-icons/io"
 
 export default function Heading(props) {
